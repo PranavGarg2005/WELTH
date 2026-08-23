@@ -41,15 +41,15 @@ useEffect(() => {
           An AI-powered financial management platform that helps you track,
           analyze, and optimize your spending with real-time insights.
         </p>
-        {/* <div className="flex justify-center space-x-4 relative z-20">
-          <Button size="lg" className="px-8">
+        <div className="flex justify-center space-x-4 relative z-20 ">
+          <Button size="lg" className="px-8 hidden md:block">
           <Link href="/dashboard">
             
               Get Started
               </Link>
             </Button>
           
-        </div> */}
+        </div>
         <div className="hero-image-wrapper mt-5 md:mt-0 relative z-0 pointer-events-none">
           <div ref={imageRef} className="hero-image">
             <Image
