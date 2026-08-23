@@ -87,7 +87,7 @@ const LandingPage = () => {
           <Link href="/dashboard">
             <Button
               size="lg"
-              className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce hidden: md block"
+              className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce mx-auto hidden md:block"
             >
               Start Free Trial
             </Button>
